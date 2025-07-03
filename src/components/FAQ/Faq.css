@@ -1,0 +1,98 @@
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding-top: 40px;
+    background-color: white;
+    width: 100vw;
+}
+
+.faq-container{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.faq-title{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(42, 167, 255, 1);
+}
+
+.faqLeft{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.faqRight{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* justify-content: space-around; */
+}
+
+.faqRight p{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(27, 60, 116, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.faqRight span{
+    /* font-family: Font Awesome 5 Free; */
+font-weight: 900;
+font-size: 28px;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: right;
+vertical-align: middle;
+
+}
+
+.smileCard{
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 15px 35px -5px rgba(0, 0, 0, 0.07);
+    gap: 20px;
+    padding: 20px;
+    position: absolute;
+    bottom: 100px;
+    left: -60px;
+    z-index: 3;
+}
+
+.heartCard{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    line-height: 80px;  
+    position: absolute;
+    right: 0;
+    top: 200px;
+    z-index: 4;
+}
+
+.heartCard img{
+    
+    vertical-align: middle;
+    line-height: normal;
+
+}

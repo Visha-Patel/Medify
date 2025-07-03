@@ -1,0 +1,67 @@
+.navBar{
+    width: 100vw;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.options {
+    /* width: 100%; */
+    display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   gap: 20px;
+   
+   
+}
+
+.options p{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(16, 40, 81, 1);
+}
+
+/* .bookings{
+    background-color: #2AA8FF;
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2%;
+} */
+
+
+.lowerbar{
+    background-color: #2AA7FF;
+    width: 100vw;
+    height: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo p{
+    font-family: Poppins;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 2%;
+color: rgba(42, 168, 255, 1);
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}

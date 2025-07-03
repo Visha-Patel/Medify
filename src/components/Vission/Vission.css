@@ -1,0 +1,15 @@
+.vission{
+    background-color: #2AA7FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+
+    
+}

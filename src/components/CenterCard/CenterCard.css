@@ -1,0 +1,162 @@
+.center-card-container{
+    background-color: white;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.center-card{
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 20px;
+    
+    /* background-color: white; */
+    /* margin-bottom: 15px; */
+    border-bottom: 1px dotted gray;
+}
+
+.center-details h3{
+    font-family: Poppins;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: rgba(20, 190, 240, 1);
+margin-bottom: 15px;
+}
+
+.center-location{
+    font-family: Poppins;
+font-weight: 700;
+font-size: 14px;
+line-height: 19.6px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: rgba(65, 65, 70, 1);
+
+}
+
+.more{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 14px;
+line-height: 19.6px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: rgba(65, 65, 70, 1);
+}
+
+.free{
+    font-family: Poppins;
+font-weight: 700;
+font-size: 14px;
+line-height: 19.6px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: rgba(2, 164, 1, 1);
+}
+
+.price{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 14px;
+line-height: 19.6px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-decoration: line-through;
+color: rgba(120, 120, 135, 1);
+}
+
+.feeDeclaration{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 14px;
+line-height: 19.6px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: rgba(65, 65, 70, 1);
+}
+
+.rating{
+    border-top: 1px dotted gray;
+    padding-top: 17px;
+    
+}
+
+.rating p{
+    background-color: rgba(0, 165, 0, 1);
+    width: fit-content;
+    border-radius: 3.5px;
+
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+    color: white;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+
+.center-booking{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.center-booking p{
+    font-family: Poppins;
+font-weight: 500;
+font-size: 14px;
+line-height: 19.6px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: rgba(1, 164, 0, 1);
+}
+
+
+.center-image{
+    background-color: rgba(140, 207, 255, 1);
+    height: 124px;
+    width: 124px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-image img{
+    height: 80px;
+    width: 80px;
+}
+
+.bookingDiv{
+    display: flex;
+    gap: 10px;
+
+}
+
+.bookingDiv P{
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    width: max-content;
+    height: 30px;
+    padding: 5px;
+}
+
+.booking-time{
+    border: 1px solid rgba(42, 167, 255, 1);
+    color: rgba(42, 167, 255, 1);
+}
+
+.booking-date{
+    border:  1px solid rgba(0, 165, 0, 1);
+    color: rgba(0, 165, 0, 1);
+}

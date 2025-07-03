@@ -1,0 +1,19 @@
+
+.sliderContainer{
+  background-color: white;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.sliderContainer .swiper-pagination{
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
+.sliderContainer .slider{
+  width: 90vw;
+}

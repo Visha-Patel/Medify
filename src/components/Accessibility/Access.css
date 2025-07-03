@@ -1,0 +1,91 @@
+.access{
+    display: flex;
+    gap: 10px;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    
+}
+
+.accessLeft{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.accessRight {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 2%;
+    padding-top: 5%;
+    gap: 20px;
+    
+}
+
+.header{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 67px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(27, 60, 116, 1);
+}
+
+.header span{
+    color: rgba(42, 167, 255, 1);
+}
+
+.subHeader{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(65, 65, 70, 1);
+}
+
+input{
+    height: 49px;
+    width: 380px;
+    border: 1px solid rgba(240, 240, 240, 1);
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(180, 180, 190, 1);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.accessRight div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.countryCode div{
+    height: 49px;
+    width: 50px;
+    padding: 5px;
+    margin: 0;
+    border: 1px solid rgba(240, 240, 240, 1);
+    background-color: white;
+}
+
+.download{
+    margin-top: 20px;
+}
+
+
+.phone{
+    width: 80%;
+}

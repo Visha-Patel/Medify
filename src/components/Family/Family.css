@@ -1,0 +1,136 @@
+.family{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    position: relative;
+    width: 100vw;
+    
+}
+
+.familyHeader{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(42, 167, 255, 1);
+
+}
+
+h3{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 67px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(27, 60, 116, 1);
+    margin: 0;
+}
+
+.familyDescription{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 240%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(119, 130, 157, 1);
+    width: 570px;
+    text-align: justify;
+
+}
+
+.happy, .lab, .hospital, .doc{
+    background-color: white;
+    width: 240px;
+    height: 304px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 15px 45px -5px rgba(0, 0, 0, 0.07);
+    padding: 20px;
+
+}
+
+.familyLeft{
+    display: flex;
+    gap: 20px;
+}
+
+.familyLeft p{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(119, 130, 157, 1);
+    margin: 0;
+}
+
+.family-column1 , .family-column2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.family-column2{
+    margin-top: 100px;
+}
+
+.happy div{
+    background-color: rgba(235, 247, 255, 1);
+    padding: 15px;
+    border-radius: 50%;
+    margin: 0;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px; 
+    
+}
+
+img{
+    vertical-align: middle;
+    line-height: normal;
+}
+
+
+.lab div{
+    background-color: rgba(255, 247, 230, 1);
+    padding: 15px;
+    border-radius: 50%;
+    margin: 0;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;    
+}
+
+.hospital div{
+    background-color: rgba(255, 235, 235, 1);
+    padding: 15px;
+    border-radius: 50%;
+    margin: 0;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;    
+}
+
+.doc div{
+    background-color: rgba(235, 250, 241, 1);
+    padding: 15px;
+    border-radius: 50%;
+    margin: 0;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;    
+}
