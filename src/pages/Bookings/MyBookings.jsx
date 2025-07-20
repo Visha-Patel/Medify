@@ -17,8 +17,13 @@ function MyBookings() {
     // console.log(data);
     setBookingData(data);
     setFullData(data);
+    
     // console.log('Booking data:', data);
   }, []);
+   useEffect(() => {
+    localStorage.setItem('bookings', JSON.stringify(bookingData));
+  }, [bookingData]);
+
 
   const formatdate = (date) =>{
     const DATE = new Date(date);
@@ -31,6 +36,7 @@ function MyBookings() {
     {
       
       setBookingData(fulldata);
+      
       console.log('fulldata',fulldata)
       console.log('Booking data:', bookingData);
     }
@@ -41,7 +47,7 @@ function MyBookings() {
       console.log('newData',newData)
       setBookingData(newData);
     }
-
+    
   } ;
 
   return (

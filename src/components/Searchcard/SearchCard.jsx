@@ -28,7 +28,7 @@ function Searchcard({bottom}){
         setCenters(data);
         console.log(data);
 
-        // Navigate to the slot selection page
+        
         navigate('/SearchResult');
     } catch (err) {
         console.error(err);
